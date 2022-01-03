@@ -1,0 +1,68 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'test'
+> Network id:      1641241116655
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x913fbc51693b13776af8338538a0d97303f8fd1cbf10f4187b2b94d760e565f9
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x3f2E152B11CDe818fdC52401A887C050fE1B2E18
+   > block number:        1
+   > block timestamp:     1641242689
+   > account:             0x0eFE752fDb45630eE7DFa343C4f9AAB9FB796a9c
+   > balance:             99.99539266
+   > gas used:            230367 (0x383df)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00460734 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00460734 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'Lottery'
+   -------------------
+   > transaction hash:    0x48a299cba199cfaa780772b24781cb281235ab21a97c9f8d3b142def62ecf997
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x837c09f116f43daFCC9084A914A32C6085344a6f
+   > block number:        3
+   > block timestamp:     1641242690
+   > account:             0x0eFE752fDb45630eE7DFa343C4f9AAB9FB796a9c
+   > balance:             99.98608796
+   > gas used:            422935 (0x67417)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0084587 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0084587 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.01306604 ETH
+
+
