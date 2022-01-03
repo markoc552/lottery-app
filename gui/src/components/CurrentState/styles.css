@@ -1,0 +1,68 @@
+.card-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  width: 80vw;
+  height: 30vh;
+  box-shadow: 0px 3px 17px -3px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  font-family: "Pushster", cursive;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-manager-participants {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+
+.card-manager {
+  margin: auto auto;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1448px) {
+  .card-manager {
+    font-size: 15px;
+  }
+
+  .card-participants {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1135px) {
+  .card-manager {
+    font-size: 12px;
+  }
+
+  .card-participants {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 907px) {
+  .card-manager {
+    font-size: 10px;
+  }
+
+  .card-participants {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .card-manager {
+    font-size: 8px;
+  }
+
+  .card-participants {
+    font-size: 10px;
+  }
+}
+
+.card-participants {
+  margin: auto auto;
+}

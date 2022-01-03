@@ -1,0 +1,13 @@
+version: "3.5"
+
+services:
+  client:
+    image: lottery_client:latest
+    restart: on-failure
+    ports:
+      - 3000:3000
+  ethereum-client:
+    image: trufflesuite/ganache-cli
+    restart: on-failure
+    ports:
+      - 8545:8545

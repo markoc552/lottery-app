@@ -1,0 +1,11 @@
+.winner-pick {
+  width: 25vw;
+  display: flex;
+  margin: auto auto;
+}
+
+.message-winner {
+  margin: 1vh auto;
+  overflow-wrap: break-word;
+  text-align: center;
+}

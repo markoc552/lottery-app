@@ -1,0 +1,23 @@
+.welcome-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: "Alfa Slab One", cursive;
+  height: 25vh;
+}
+
+.welcome-wrapper::before {
+  background-image: url("https://images.unsplash.com/photo-1518688248740-7c31f1a945c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  opacity: 0.8;
+}
+
+.welcome-greetings {
+  font-size: 35px;
+  margin: auto auto;
+}
+
+.welcome-description {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  margin: 1vh auto;
+  color: #a1a1a1;
+}

@@ -1,0 +1,5 @@
+window.ENVIRONMENT = {
+  WALLET_ADDRESS: "",
+  WALLET_MNEMONIC: "",
+  CONTRACT_ADDRESS: "",
+};

@@ -1,0 +1,12 @@
+.luck-headline {
+  margin: 1vh auto;
+  font-family: "Prompt", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.form-display {
+  display: flex;
+  flex-direction: column;
+  margin: auto auto;
+}
